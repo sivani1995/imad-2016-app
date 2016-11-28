@@ -13,6 +13,9 @@ app.get('/article-one', function (req, res) {
    res.sendFile(path.join(__dirname, 'article-one.html'));
 });
 
+app.get('/resume', function (req, res) {
+     res.sendFile(path.join(__dirname, 'ui', 'resume.html'));
+});
 app.get('/article-two', function (req, res) {
      res.sendFile(path.join(__dirname, 'ui', 'resume.html'));
 });
